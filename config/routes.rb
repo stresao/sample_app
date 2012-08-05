@@ -3,7 +3,7 @@ SampleApp::Application.routes.draw do
 
   resources :microposts
 
-  get "users/new"
+#  get "users/new"
 
   root to: 'static_pages#home'
   match '/help',    to: 'static_pages#help'
